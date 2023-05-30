@@ -1,4 +1,10 @@
 return {
+  plugins = {
+    "AstroNvim/astrocommunity",
+    { import = "astrocommunity.colorscheme.catppuccin" }
+    -- ... import any community contributed plugins here
+  },
+
   -- Configure AstroNvim updates
   updater = {
     remote = "origin", -- remote to use
